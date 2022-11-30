@@ -10,7 +10,7 @@ const StyledButton = withStyles({
         height: "44px",
         padding: "0 25px",
         boxSizing: "border-box",
-        borderRadius: 0, 
+        borderRadius: 6, 
         background: "#4f25f7",
         color: "#fff",
         transform: "none",
