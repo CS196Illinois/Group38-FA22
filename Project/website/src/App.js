@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Custombutton1 from './components/custombutton1';
 import { createTheme, ThemeProvider} from '@material-ui/core/styles';
 import { TextField } from '@material-ui/core';
 import Typical from 'react-typical'
 import { useState } from 'react';
+import logo from './cs124logo.png';
 
 const theme = createTheme({
   palette: {
@@ -78,7 +78,7 @@ function App() {
       }}>
         <TextField id="outlined-basic" label="Prompt" variant="outlined" multiline/>
       </div>
-      <div onClick={() => setParagraphText("hello!") } style={{
+      <div onClick={() => setParagraphText("Uh huh, yuh yuh yuh ayy") } style={{
         marginLeft: '47.5%',
         marginTop: '2%'
       }}>
